@@ -8,11 +8,10 @@ int main(){
     printf("%zu\n",sizeof(*p));
     printf("%zu\n",sizeof(**p));
     printf("%zu\n",sizeof(***p));
-
     printf("%p\n",(void*)p);
     printf("%p\n",(void*)*p);
     printf("%p\n",(void*)**p);
-    printf("%p\n",***p);
+    printf("%d\n",***p);
 
     return 0;
 }
